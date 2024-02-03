@@ -1,0 +1,7 @@
+POST http://localhost:7071/api/create_order HTTP/1.1
+content-type: application/json
+
+{
+    "customerId": "1",
+    "order": "pepperoni pizza"
+}
